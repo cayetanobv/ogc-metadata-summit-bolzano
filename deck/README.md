@@ -3,9 +3,10 @@
 Slidev source of Cayetano Benavent's talk at the [OGC Metadata Summit 2026](https://events.ogc.org/MetadataSummit2026),
 Eurac Research, Bolzano / Bozen, 7 September 2026 (success stories session, 15 minutes).
 
-The deck builds on Youssef Harby's Slidev deck for Cloud Native Geospatial Japan 2026
-(https://github.com/yharby/cng-japan-2026): a few of his Vue visualizations (`VizLayout`, `VizTheGap`,
-`VizHonestWork`, `VizClose`) are reused with thanks.
+The deck builds on the Slidev deck that Youssef Harby, a fellow member of the Portolan team, presented at
+Cloud Native Geospatial Japan 2026 (https://github.com/yharby/cng-japan-2026). Portolan is a team effort and
+the two talks share one message, so some of his visualizations (`VizLayout`, `VizTheGap`, `VizHonestWork`,
+`VizClose`) are reused here with thanks.
 
 ```bash
 pnpm install
