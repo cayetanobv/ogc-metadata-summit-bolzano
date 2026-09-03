@@ -1,0 +1,33 @@
+{
+  "name": "ogc-metadata-summit-2026",
+  "description": "Slidev source for AI-ready metadata in practice: lessons from building Portolan, OGC Metadata Summit 2026.",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --out dist",
+    "preview": "vite preview",
+    "export": "node scripts/export.mjs pdf",
+    "export:all": "pnpm export:pdf && pnpm export:pptx",
+    "validate": "node scripts/validate-deck.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "test": "pnpm validate && pnpm build && pnpm smoke",
+    "export:pdf": "node scripts/export.mjs pdf",
+    "export:pptx": "node scripts/export.mjs pptx",
+    "export:pptx-clicks": "node scripts/export.mjs pptx clicks"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.124",
+    "@slidev/cli": "52.19.0",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.62.1",
+    "vite": "^8.2.1"
+  }
+}

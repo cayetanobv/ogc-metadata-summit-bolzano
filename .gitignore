@@ -1,0 +1,10 @@
+# Working context and catalog-building material stay local
+notes/
+catalog-build/
+# Deck build artefacts
+deck/node_modules/
+deck/dist/
+deck/.slidev/
+.env
+.env.*
+__pycache__/
