@@ -8,8 +8,9 @@ class: cover-slide
   <p class="kicker">OGC METADATA SUMMIT 2026 · FROM METADATA STRATEGY TO PRACTICAL DATA INFRASTRUCTURE</p>
   <h1>AI-ready metadata in practice</h1>
   <h2>Lessons from building Portolan</h2>
-  <p class="who"><strong>Cayetano Benavent</strong> · CARTO · Portolan contributor</p>
-  <p class="where">Eurac Research, Bolzano / Bozen · Monday 7 September 2026 · Success stories session</p>
+  <p class="who"><strong>Cayetano Benavent</strong></p>
+  <p class="role">CARTO and Portolan contributor</p>
+  <p class="where">Eurac Research, Bolzano / Bozen · 7–8 September 2026</p>
   <div class="logos" aria-label="OGC, Portolan and CARTO logos">
     <img src="/ogc-logo.png" alt="OGC" class="ogc" />
     <span class="portolan"><img src="/portolan-mark.svg" alt="" /><span>Portolan</span></span>
@@ -22,7 +23,8 @@ class: cover-slide
 .cover .kicker { font-family:'JetBrains Mono', monospace; font-size:0.68rem; letter-spacing:0.08em; color:var(--c-muted); }
 .cover h1 { font-size:2.8rem; line-height:1.05; margin:0; }
 .cover h2 { font-size:1.6rem; font-weight:400; color:var(--c-portolan); margin:0; }
-.cover .who { margin-top:1.6rem; font-size:1.05rem; }
+.cover .who { margin-top:1.6rem; font-size:1.15rem; }
+.cover .role { font-size:0.95rem; color:var(--c-muted); margin-top:-0.4rem; }
 .cover .where { color:var(--c-muted); font-size:0.9rem; }
 .cover .logos { position:absolute; left:2rem; right:2rem; bottom:1.4rem; display:flex; align-items:center; gap:2.2rem; }
 .cover .logos img { display:block; height:1.6rem; width:auto; }
