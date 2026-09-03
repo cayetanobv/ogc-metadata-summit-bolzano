@@ -1,7 +1,7 @@
 export const DECK = Object.freeze({
   base: '/ogc-metadata-summit-bolzano/',
-  mainSlides: 14,
-  closingSlide: 14,
+  mainSlides: 15,
+  closingSlide: 15,
   clickBudget: 40,
   dist: 'dist',
   exportFile: '../export/ogc-metadata-summit-2026.pdf',

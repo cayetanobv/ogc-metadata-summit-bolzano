@@ -22,7 +22,6 @@ layout: default
     <p class="big">106.6 TB</p>
     <p class="sub">served in the 28 days to 27 August 2026</p>
     <p class="none">No serving layer in front of it.</p>
-    <p class="why"><b>Why now.</b> Cloud-native formats moved compute to whoever asks; agents changed who can ask; sovereignty made every layer a choice. Portolan is the missing agreement that lets a city and a planetary archive publish the same way.</p>
     <p class="src">Data: Fields of the World (fieldsofthe.world), published on Source Cooperative; figure from the Portolan launch post, 2 Sep 2026.</p>
   </div>
 </div>
@@ -39,8 +38,8 @@ layout: default
 </style>
 
 <!--
-[Say] (1:30)
-"So what does Portolan add, and why should anyone outside this room care? Four things the standards leave open become mandatory. One: a quality floor you can check. Spatial ordering and bounding boxes inside every GeoParquet, overviews in every COG, providers and a license on every collection, range requests and CORS on the host; and the validator reads the bytes, not just the JSON. Two: documentation for two audiences at every level, a README for the person deciding whether to trust the data and an AGENTS file for the agent that needs the join key and the caveats. Three: no server in the request path; a catalog is a folder in storage the publisher controls, cost drops to storage and egress, sovereignty is structural, nothing runs after publishing. Four: federation without a central copy, a registry of independently hosted catalogs with producer, provider and host named on every one. Why now? Cloud-native formats moved the compute to whoever asks the question. Agents changed who can ask. Sovereignty made every layer a choice. Portolan is the missing agreement that lets a city and a planetary archive publish the same way."
+[Say] (1:15)
+"So what does Portolan add, and why should anyone outside this room care? Four things the standards leave open become mandatory. One: a quality floor you can check. Spatial ordering and bounding boxes inside every GeoParquet, overviews in every COG, providers and a license on every collection, range requests and CORS on the host; and the validator reads the bytes, not just the JSON. Two: documentation for two audiences at every level, a README for the person deciding whether to trust the data and an AGENTS file for the agent that needs the join key and the caveats. Three: no server in the request path; a catalog is a folder in storage the publisher controls, cost drops to storage and egress, sovereignty is structural, nothing runs after publishing. Four: federation without a central copy, a registry of independently hosted catalogs with producer, provider and host named on every one. Portolan is the missing agreement that lets a city and a planetary archive publish the same way."
 
 [Click 1]
 "Does a static model scale? Fields of the World publishes its global field-boundary dataset as one Portolan catalog on Source Cooperative: 369 terabytes, and it served a hundred and six terabytes in the last four weeks of August. Nothing sits in front of it. The publisher pays for storage and egress; compute belongs to whoever asks the question."

@@ -29,35 +29,39 @@ src: ./slides/a03-experiment.md
 ---
 
 ---
-src: ./slides/a04-building-blocks.md
+src: ./slides/a04-why.md
 ---
 
 ---
-src: ./slides/a05-what-portolan-adds.md
+src: ./slides/a05-building-blocks.md
 ---
 
 ---
-src: ./slides/a06-story1-publish.md
+src: ./slides/a06-what-portolan-adds.md
 ---
 
 ---
-src: ./slides/a07-story2-agent.md
+src: ./slides/a07-story1-publish.md
 ---
 
 ---
-src: ./slides/a08-story2-trace.md
+src: ./slides/a08-story2-agent.md
 ---
 
 ---
-src: ./slides/a09-lesson1-evaluability.md
+src: ./slides/a09-story2-trace.md
 ---
 
 ---
-src: ./slides/a10-lesson2-two-audiences.md
+src: ./slides/a10-lesson1-evaluability.md
 ---
 
 ---
-src: ./slides/a11-lesson3-strict-machine-held.md
+src: ./slides/a11-lesson2-two-audiences.md
+---
+
+---
+src: ./slides/a12-lesson3-strict-machine-held.md
 ---
 
 ---
@@ -65,11 +69,11 @@ src: ./slides/16-honest-work.md
 ---
 
 ---
-src: ./slides/a13-close-trust.md
+src: ./slides/a14-close-trust.md
 ---
 
 ---
-src: ./slides/a14-questions.md
+src: ./slides/a15-questions.md
 ---
 
 ---
