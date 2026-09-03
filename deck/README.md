@@ -18,7 +18,7 @@ pnpm export:pptx-clicks   # same, one page per click state
 pnpm export:pdf     # ../export/ogc-metadata-summit-2026.pdf
 ```
 
-Slides live in `slides/` (`a01`–`a15` are the talk; `b*` and `16-honest-work` are Q&A backups), in the order given by
+Slides live in `slides/` (`a01`–`a16` are the talk; `b*` and `16-honest-work` are Q&A backups), in the order given by
 `slides.md`. Each slide file carries the speaker script (`[Say]`, `[Click n]`) and a `[Sources]` list.
 
 Portolan: https://portolan-sdi.org · the South Tyrol mirror catalog shown in the talk:

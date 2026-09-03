@@ -30,6 +30,8 @@ class: cover-slide
 .cover .logos .carto { height:1.15rem; }
 .cover .logos .portolan { display:inline-flex; align-items:center; gap:0.45rem; font-weight:700; letter-spacing:0.04em; font-size:1rem; color:var(--c-fg); }
 .cover .logos .portolan img { height:1.6rem; }
+/* dark mode: the OGC and CARTO marks are dark-on-light artwork; render them white */
+html.dark .cover .logos .ogc, html.dark .cover .logos .carto { filter: brightness(0) invert(1); opacity:0.92; }
 </style>
 
 <!--
