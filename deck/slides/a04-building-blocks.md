@@ -11,9 +11,9 @@ layout: default
     <table class="blocks">
       <tbody>
       <tr><td><b>STAC 1.1</b> catalog · collection · item · asset, plus the provider, table, file and web-map-links extensions</td><td class="st ogc">OGC Community Standard <small>Oct 2025</small></td></tr>
-      <tr><td>an Item is a <b>GeoJSON</b> Feature; the STAC API extends <b>OGC API – Features</b></td><td class="st ogc">IETF RFC 7946 · OGC Standard</td></tr>
+      <tr><td>every STAC Item is a <b>GeoJSON</b> Feature</td><td class="st ogc">IETF RFC 7946</td></tr>
       <tr><td><b>Cloud Optimized GeoTIFF</b> for raster</td><td class="st ogc">OGC Standard <small>2023</small></td></tr>
-      <tr><td><b>GeoParquet</b> for vector (Parquet + Simple Features)</td><td class="st track">OGC Standards Working Group <small>pending approval</small></td></tr>
+      <tr><td><b>GeoParquet</b> for vector (Parquet + Simple Features)</td><td class="st ogc">OGC Standards Working Group <small>approval pending</small></td></tr>
       <tr><td><b>PMTiles</b> for map display</td><td class="st comm">community format <small>outside OGC</small></td></tr>
       <tr><td><b>Zarr</b> · <b>COPC</b> <small>(planned, not shipped)</small></td><td class="st ogc">Zarr: OGC Community Standard <small>2022</small></td></tr>
       <tr><td><b>HTTP range requests</b> on <b>object storage</b> · <b>CORS</b></td><td class="st comm">IETF · W3C</td></tr>
@@ -46,7 +46,7 @@ layout: default
 
 <!--
 [Say] (1:30)
-"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October; a STAC Item is a GeoJSON Feature, and the STAC API extends OGC API Features. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet is in an OGC Standards Working Group, pending approval. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format outside OGC, and underneath it all are HTTP range requests on object storage. Nothing here is ours."
+"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October, and every STAC Item is a GeoJSON Feature. Portolan uses the static side of STAC only: files, no API. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet has its own OGC Standards Working Group; approval of 1.0 is the remaining formality. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format outside OGC, and underneath it all are HTTP range requests on object storage. Nothing here is ours."
 
 [Click 1]
 "So what is left to specify? Every one of those standards deliberately leaves the publishing choices open: how files are laid out, whether they are spatially ordered, which statistics they carry, what documentation sits next to them, how they are hosted, who produced them. That is the right design for a standard. It is the wrong thing to leave open for a reader, because every open choice is a branch every reader has to handle."
@@ -55,7 +55,7 @@ layout: default
 "That is the gap Portolan fills. STAC describes the data. Portolan defines how it is published. It is a publishing profile on top of these standards, not a new format: Apache-2.0, version 0.2.0, 128 requirements, 105 of them checked by a machine."
 
 [Sources]
-- https://www.ogc.org/announcement/ogc-announces-publication-of-the-spatiotemporal-asset-catalog-community-standards/ (28 Oct 2025; "an Item … is simply a GeoJSON Feature"; "The STAC API extends the OGC API – Features – Part 1: Core")
+- https://www.ogc.org/announcement/ogc-announces-publication-of-the-spatiotemporal-asset-catalog-community-standards/ (28 Oct 2025; "an Item … is simply a GeoJSON Feature")
 - https://docs.ogc.org/is/21-026/21-026.html (OGC Cloud Optimized GeoTIFF Standard 1.0, 2023)
 - https://github.com/opengeospatial/geoparquet/blob/main/README.md ("official Standards Working Group … pending OGC approval", checked 3 Sep 2026)
 - https://www.ogc.org/announcement/ogc-forms-new-geozarr-standards-working-group-to-establish-a-zarr-encoding-for-geospatial-data/ (Zarr V2 endorsed as OGC Community Standard, June 2022)
