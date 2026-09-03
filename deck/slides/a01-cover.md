@@ -29,7 +29,7 @@ class: cover-slide
 .cover .logos { position:absolute; left:2rem; right:2rem; bottom:1.4rem; display:flex; align-items:center; gap:2.2rem; }
 .cover .logos img { display:block; height:1.6rem; width:auto; }
 .cover .logos .ogc { height:2.1rem; }
-.cover .logos .carto { height:1.15rem; }
+.cover .logos .carto { height:1.75rem; }
 .cover .logos .portolan { display:inline-flex; align-items:center; gap:0.45rem; font-weight:700; letter-spacing:0.04em; font-size:1rem; color:var(--c-fg); }
 .cover .logos .portolan img { height:1.6rem; }
 /* dark mode: the OGC and CARTO marks are dark-on-light artwork; render them white */
