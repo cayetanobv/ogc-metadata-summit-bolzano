@@ -5,7 +5,7 @@ Eurac Research, Bolzano / Bozen, 7 September 2026 (success stories session, 15 m
 
 The deck builds on the Slidev deck that Youssef Harby, a fellow member of the Portolan team, presented at
 Cloud Native Geospatial Japan 2026 (https://github.com/yharby/cng-japan-2026). Portolan is a team effort and
-the two talks share one message, so some of his visualizations (`VizLayout`, `VizTheGap`, `VizHonestWork`,
+the two talks share one message, so some of his visualizations (`VizLayout`, `VizTheGap`, `VizPortolanContract`,
 `VizClose`) are reused here with thanks.
 
 ```bash
@@ -18,8 +18,8 @@ pnpm export:pptx-clicks   # same, one page per click state
 pnpm export:pdf     # ../export/ogc-metadata-summit-2026.pdf
 ```
 
-Slides live in `slides/` (`a01`–`a17` are the talk; `b*` and `16-honest-work` are Q&A backups), in the order given by
-`slides.md`. Each slide file carries the speaker script (`[Say]`, `[Click n]`) and a `[Sources]` list.
+Slides live in `slides/` (`a01`–`a17` are the talk; `x01`–`x03` are the appendix, shown only in Q&A), in the order given
+by `slides.md`. Each slide file carries the speaker script (`[Say]`, `[Click n]`) and a `[Sources]` list.
 
 Portolan: https://portolan-sdi.org · the South Tyrol mirror catalog shown in the talk:
 https://github.com/cayetanobv/south-tyrol-geodata-portolan-mirror

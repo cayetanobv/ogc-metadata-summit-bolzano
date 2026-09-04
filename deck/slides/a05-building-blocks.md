@@ -5,60 +5,61 @@ layout: default
 
 # You already know the building blocks. Most carry an OGC stamp.
 
-<div class="grid grid-cols-2 gap-6 mt-3">
-  <div class="panel">
+<div class="grid grid-cols-5 gap-5 mt-2 body">
+  <div class="col-span-2 panel">
     <p class="label">WHAT A PORTOLAN CATALOG IS MADE OF</p>
     <table class="blocks">
       <tbody>
-      <tr><td><b>STAC 1.1</b> catalog · collection · item · asset, plus the provider, table, file and web-map-links extensions</td><td class="st ogc">OGC Community Standard <small>Oct 2025</small></td></tr>
-      <tr><td>every STAC Item is a <b>GeoJSON</b> Feature</td><td class="st ogc">IETF RFC 7946</td></tr>
-      <tr><td><b>Cloud Optimized GeoTIFF</b> for raster</td><td class="st ogc">OGC Standard <small>2023</small></td></tr>
-      <tr><td><b>GeoParquet</b> for vector (Parquet + Simple Features)</td><td class="st ogc">OGC Standards Working Group <small>approval pending</small></td></tr>
-      <tr><td><b>PMTiles</b> for map display</td><td class="st comm">community format <small>outside OGC</small></td></tr>
-      <tr><td><b>Zarr</b> · <b>COPC</b> <small>(planned, not shipped)</small></td><td class="st ogc">Zarr: OGC Community Standard <small>2022</small></td></tr>
-      <tr><td><b>HTTP range requests</b> on <b>object storage</b> · <b>CORS</b></td><td class="st comm">IETF · W3C</td></tr>
+      <tr><td><b>STAC 1.1</b> catalog · collection · item · asset</td><td class="st ogc">OGC Community Standard <small>Oct 2025</small></td></tr>
+      <tr><td><b>GeoJSON</b> · every Item is a Feature</td><td class="st comm">IETF RFC 7946</td></tr>
+      <tr><td><b>Cloud Optimized GeoTIFF</b> · raster</td><td class="st ogc">OGC Standard <small>2023</small></td></tr>
+      <tr><td><b>GeoParquet</b> · vector</td><td class="st ogc">OGC SWG <small>approval pending</small></td></tr>
+      <tr><td><b>PMTiles</b> · map display</td><td class="st comm">community format</td></tr>
+      <tr><td><b>Zarr</b> · <b>COPC</b> <small>planned</small></td><td class="st ogc">Zarr: OGC Community Standard <small>2022</small></td></tr>
+      <tr><td><b>HTTP range requests</b> · object storage · CORS</td><td class="st comm">IETF · W3C</td></tr>
       </tbody>
     </table>
+    <p class="muted">Nothing here is ours.</p>
   </div>
-  <div class="panel side">
-    <p class="label" :class="{dim:$clicks<1}">SO WHAT IS LEFT TO SPECIFY?</p>
-    <p :class="{dim:$clicks<1}">Every one of those standards <em>deliberately</em> leaves publishing choices open: layout, ordering, statistics, documentation, hosting, provenance. Each open choice is a branch every reader must handle.</p>
-    <p class="quote" :class="{dim:$clicks<2}">"STAC describes the data.<br/>Portolan defines how it is published."</p>
-    <p class="muted" :class="{dim:$clicks<2}">A STAC publishing profile, not a new format. Apache-2.0. Spec v0.2.0, 128 requirements, 105 machine-checked.</p>
+  <div class="col-span-3 viz">
+    <VizTheGap />
   </div>
 </div>
 
+<div class="bi"><span class="en">"STAC describes the data. Portolan defines how it is published." A publishing profile on top of these standards, not a new format.</span></div>
+
 <style>
-.panel { border:1px solid var(--c-line); border-radius:12px; padding:0.7rem 1rem; background:var(--c-panel); font-size:0.82rem; }
-.label { font-family:'JetBrains Mono', monospace; font-size:0.62rem; letter-spacing:0.08em; color:var(--c-portolan); margin-bottom:0.4rem; }
-.blocks { width:100%; border-collapse:collapse; font-size:0.76rem; }
-.blocks td { padding:0.26rem 0.3rem; border-top:1px solid var(--c-line); vertical-align:top; }
+.body { flex:1 1 0; min-height:0; }
+.panel { border:1px solid var(--c-line); border-radius:12px; padding:0.6rem 0.8rem; background:var(--c-panel); font-size:0.78rem; display:flex; flex-direction:column; }
+.label { font-family:'JetBrains Mono', monospace; font-size:0.6rem; letter-spacing:0.08em; color:var(--c-portolan); margin-bottom:0.35rem; }
+.blocks { width:100%; border-collapse:collapse; font-size:0.7rem; }
+.blocks td { padding:0.24rem 0.2rem; border-top:1px solid var(--c-line); vertical-align:top; line-height:1.25; }
 .blocks tr:first-child td { border-top:0; }
-.st { white-space:nowrap; text-align:right; font-family:'JetBrains Mono', monospace; font-size:0.66rem; }
-.st small { display:block; font-size:0.6rem; color:var(--c-muted); }
-.ogc { color:var(--c-ok); } .track { color:var(--c-warn); } .comm { color:var(--c-muted); }
-.side { display:flex; flex-direction:column; gap:0.7rem; }
-.side p { margin:0; transition:opacity 200ms; }
-.quote { font-size:1.15rem; font-weight:700; border-left:3px solid var(--c-portolan); padding-left:0.8rem; }
-.muted { color:var(--c-muted); font-size:0.8rem; }
-.dim { opacity:0.3; }
+.st { white-space:nowrap; text-align:right; font-family:'JetBrains Mono', monospace; font-size:0.58rem; }
+.st small { display:block; font-size:0.54rem; color:var(--c-muted); }
+.ogc { color:var(--c-ok); } .comm { color:var(--c-muted); }
+.muted { color:var(--c-muted); font-size:0.72rem; margin:0; padding-top:0.5rem; }
+.viz { display:flex; align-items:center; min-height:0; }
+.viz .stage { height:100%; }
 </style>
 
 <!--
-[Say] (1:30)
-"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October, and every STAC Item is a GeoJSON Feature. Portolan uses the static side of STAC only: files, no API. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet has its own OGC Standards Working Group; approval of 1.0 is the remaining formality. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format outside OGC, and underneath it all are HTTP range requests on object storage. Nothing here is ours."
+[Say] (1:15)
+"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October. Every STAC Item is a GeoJSON Feature, an IETF standard. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet has its own OGC Standards Working Group; approval of 1.0 is the remaining formality. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format, and underneath it all are HTTP range requests on object storage. Nothing here is ours."
 
 [Click 1]
-"So what is left to specify? Every one of those standards deliberately leaves the publishing choices open: how files are laid out, whether they are spatially ordered, which statistics they carry, what documentation sits next to them, how they are hosted, who produced them. That is the right design for a standard. It is the wrong thing to leave open for a reader, because every open choice is a branch every reader has to handle."
+"STAC does its normal job: it describes and links the same objects, catalog, collection, item, asset. Portolan uses the static side of STAC only: files, no API."
 
 [Click 2]
-"That is the gap Portolan fills. STAC describes the data. Portolan defines how it is published. It is a publishing profile on top of these standards, not a new format: Apache-2.0, version 0.2.0, 128 requirements, 105 of them checked by a machine."
+"Every one of those standards deliberately leaves the publishing choices open. That is the right design for a standard and the wrong thing to leave open for a reader, because every open choice is a branch every reader has to handle. Portolan makes six of those choices explicit: structure and links, formats and statistics, access and hosting, licence and provenance, README and AGENTS documentation, and visualisation. A catalog declares which version of the profile it follows. STAC describes the data. Portolan defines how it is published."
 
 [Sources]
 - https://www.ogc.org/announcement/ogc-announces-publication-of-the-spatiotemporal-asset-catalog-community-standards/ (28 Oct 2025; "an Item … is simply a GeoJSON Feature")
+- https://datatracker.ietf.org/doc/html/rfc7946 (GeoJSON, IETF, not an OGC document)
 - https://docs.ogc.org/is/21-026/21-026.html (OGC Cloud Optimized GeoTIFF Standard 1.0, 2023)
 - https://github.com/opengeospatial/geoparquet/blob/main/README.md ("official Standards Working Group … pending OGC approval", checked 3 Sep 2026)
 - https://www.ogc.org/announcement/ogc-forms-new-geozarr-standards-working-group-to-establish-a-zarr-encoding-for-geospatial-data/ (Zarr V2 endorsed as OGC Community Standard, June 2022)
 - https://docs.protomaps.com/pmtiles/ (PMTiles; not an OGC document)
-- https://github.com/portolan-sdi/portolan-ops/blob/main/copy/messaging.md ("Isn't this just STAC and cloud-optimized formats?")
+- https://github.com/portolan-sdi/portolan-spec/blob/main/specs/portolan/core.md (the six families of publishing choices)
+- VizTheGap by Youssef Harby, CNG Japan 2026 deck, reused as team material
 -->

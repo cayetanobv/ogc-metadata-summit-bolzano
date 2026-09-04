@@ -3,7 +3,7 @@ clicks: 1
 layout: default
 ---
 
-# Postscript · why "Portolan"
+# Appendix 1 · Why "Portolan"
 
 <div class="grid grid-cols-5 gap-6 mt-2">
   <div class="col-span-3 chart">
@@ -33,10 +33,10 @@ layout: default
 
 <!--
 [Say] (0:45)
-"A postscript on the name. Portolan charts were among the earliest practical navigational maps. Not theoretical pictures of the world but working tools: built from sailors' observations, continuously refined, shared across ports and nations. Decentralised, made and improved by many hands. Interoperable, readable wherever a ship went. And critical infrastructure, for trade, for safety, for sovereignty."
+"Portolan charts were among the earliest practical navigational maps. Not theoretical pictures of the world but working tools: built from sailors' observations, continuously refined, shared across ports and nations. Decentralised, made and improved by many hands. Interoperable, readable wherever a ship went. And critical infrastructure, for trade, for safety, for sovereignty."
 
 [Click 1]
-"The project takes its name from that tradition. Practical rather than academic. Built from data in open formats rather than drawings. Designed for sharing across organisations, clouds and borders. Thank you."
+"The project takes its name from that tradition. Practical rather than academic. Built from data in open formats rather than drawings. Designed for sharing across organisations, clouds and borders."
 
 [Sources]
 - Launch commentary, 2 September 2026: https://carto.com/blog/introducing-portolan-and-carto-sdi/ ("A postscript on the name")

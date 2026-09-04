@@ -3,7 +3,7 @@ clicks: 3
 layout: default
 ---
 
-# Your ISO 19115 / INSPIRE records are inputs, not casualties
+# Appendix 2 · Your ISO 19115 / INSPIRE records are inputs, not casualties
 
 <div class="grid grid-cols-3 gap-5 mt-4">
   <div class="panel" :class="{dim:$clicks<1}">

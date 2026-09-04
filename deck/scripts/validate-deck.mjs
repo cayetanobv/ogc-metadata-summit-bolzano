@@ -35,6 +35,7 @@ export const FORBIDDEN = [
   [/AI-first(?!\.?\s*(Agents|agents))/i, 'Portolan is AI-ready, not AI-first'],
   [/\b106\b(?![\d,.])/, 'stale validator count; regenerate from the spec requirements.yaml'],
   [/\b22\b (stay|publisher|judg)/i, 'stale process count; regenerate from the spec requirements.yaml'],
+  [/\b84\b\s*(rules|checks)/i, 'rule count is not the requirement count; say "the validator" or use the requirements.yaml figures'],
   [/registered STAC extension/i, 'not a registered extension'],
   [/GeoParquet 2\.0 (is )?released/i, 'GeoParquet 2.0 is not released'],
   [/replaces? ISO 19115|instead of ISO/i, 'Portolan does not replace ISO records'],

@@ -3,7 +3,7 @@ layout: default
 hideInToc: true
 ---
 
-# Backup · How an ISO record rides in a Portolan collection
+# Appendix 2 · How an ISO record rides in a Portolan collection
 
 ```json
 "assets": {

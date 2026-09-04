@@ -6,7 +6,7 @@ import { useDeckLocale } from '../composables/useDeckLocale'
 const { isPrintMode } = useNav()
 const { tr } = useDeckLocale()
 
-const deckUrl = 'https://cayetanobv.github.io/ogc-metadata-summit-bolzano/#/16'
+const deckUrl = 'https://cayetanobv.github.io/ogc-metadata-summit-bolzano/#/17'
 const links = computed(() => [
   { label: tr('WEBSITE', 'ウェブサイト'), value: 'portolan-sdi.org', url: 'https://portolan-sdi.org/', x: 42, y: 54 },
   { label: tr('ALL PROJECTS', '全プロジェクト'), value: 'github.com/portolan-sdi', url: 'https://github.com/portolan-sdi', x: 294, y: 54 },
@@ -46,7 +46,7 @@ const links = computed(() => [
         <rect x="581" y="106" width="154" height="154" rx="8" class="qr-frame" />
         <image href="/qr-deck.svg" x="588" y="113" width="140" height="140" preserveAspectRatio="xMidYMid meet" />
         <text x="658" y="294" text-anchor="middle" class="deck-url">cayetanobv.github.io</text>
-        <text x="658" y="315" text-anchor="middle" class="deck-url">ogc-metadata-summit-bolzano/#/16</text>
+        <text x="658" y="315" text-anchor="middle" class="deck-url">ogc-metadata-summit-bolzano/#/17</text>
         <text x="658" y="354" text-anchor="middle" class="deck-note">{{ tr('SCAN · CLICK · SHARE', 'スキャン · クリック · 共有') }}</text>
       </a>
     </svg>
@@ -63,6 +63,6 @@ const links = computed(() => [
 .deck-card { fill: var(--c-fg); }
 .deck-label { fill: var(--c-bg); font-size: 16px; font-weight: 900; letter-spacing: 0.08em; }
 .qr-frame { fill: var(--c-bg); }
-.deck-url { fill: var(--c-bg); font-size: 10.5px; font-weight: 800; font-family: ui-monospace, 'JetBrains Mono', monospace; }
+.deck-url { fill: var(--c-bg); font-size: 9px; font-weight: 800; font-family: ui-monospace, 'JetBrains Mono', monospace; }
 .deck-note { fill: var(--c-bg); opacity: 0.68; font-size: 9px; font-weight: 900; letter-spacing: 0.08em; }
 </style>

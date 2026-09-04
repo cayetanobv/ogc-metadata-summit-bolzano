@@ -25,7 +25,7 @@ src: ./slides/a02-bio.md
 ---
 
 ---
-src: ./slides/a03-experiment.md
+src: ./slides/a03-what-is-portolan.md
 ---
 
 ---
@@ -37,43 +37,47 @@ src: ./slides/a05-building-blocks.md
 ---
 
 ---
-src: ./slides/a06-what-portolan-adds.md
+src: ./slides/a06-lifecycle.md
 ---
 
 ---
-src: ./slides/a07-story1-publish.md
+src: ./slides/a07-what-portolan-adds.md
 ---
 
 ---
-src: ./slides/a08-story2-agent.md
+src: ./slides/a08-story1-publish.md
 ---
 
 ---
-src: ./slides/a09-story2-trace.md
+src: ./slides/a09-metadata-sources.md
 ---
 
 ---
-src: ./slides/a10-skills.md
+src: ./slides/a10-story2-agent.md
 ---
 
 ---
-src: ./slides/a11-lesson1-evaluability.md
+src: ./slides/a11-story2-trace.md
 ---
 
 ---
-src: ./slides/a12-lesson2-two-audiences.md
+src: ./slides/a12-skills.md
 ---
 
 ---
-src: ./slides/a13-lesson3-strict-machine-held.md
+src: ./slides/a13-lesson1-evaluability.md
 ---
 
 ---
-src: ./slides/a15-close-trust.md
+src: ./slides/a14-lesson2-two-audiences.md
 ---
 
 ---
-src: ./slides/a16-postscript-name.md
+src: ./slides/a15-lesson3-strict-machine-held.md
+---
+
+---
+src: ./slides/a16-close.md
 ---
 
 ---
@@ -81,21 +85,13 @@ src: ./slides/a17-questions.md
 ---
 
 ---
-src: ./slides/16-honest-work.md
+src: ./slides/x01-name.md
 ---
 
 ---
-src: ./slides/b12-iso-inspire.md
+src: ./slides/x02-iso-inspire.md
 ---
 
 ---
-src: ./slides/b15-backup-iso-json.md
----
-
----
-src: ./slides/b06-lesson4-prescriptive.md
----
-
----
-src: ./slides/b08-lesson6-no-api.md
+src: ./slides/x03-iso-json.md
 ---
