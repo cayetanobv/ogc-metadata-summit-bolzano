@@ -24,6 +24,7 @@ layout: default
       <li>69 collections in 11 themes, <code>AGENTS.md</code> at every level</li>
       <li>the join key <code>ISTAT_CODE</code>, the CRS, the H2–H4 class strings, the caveats</li>
       <li>GeoParquet with bbox columns, read in place with DuckDB</li>
+      <li>the <code>reading-portolan</code> skill: how to navigate, query, join and report</li>
     </ul>
     <p class="label mt-3">WHAT IT DID NOT HAVE</p>
     <ul>

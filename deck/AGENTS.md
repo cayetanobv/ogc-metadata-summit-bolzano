@@ -4,8 +4,7 @@ Slidev deck for the talk **"AI-ready metadata in practice: lessons from building
 Eurac Research, Bolzano, 7 September 2026, success stories session, 15 minutes.
 
 ## Structure
-- `slides.md` sets the order; one Markdown file per slide in `slides/`. Slides `a01`–`a16` are the talk
-  (`16-honest-work.md` sits at position 13); `b12`, `b15`, `b06`, `b08` follow as Q&A backups.
+- `slides.md` sets the order; one Markdown file per slide in `slides/`. Slides `a01`–`a17` are the talk (16 slides; `16-honest-work.md` moved to the backups); `b12`, `b15`, `b06`, `b08` follow as Q&A backups.
 - `components/`: Vue visualizations (`VizLayout`, `VizTheGap`, `VizHonestWork`, `VizClose`), originally by Youssef Harby, a
   fellow Portolan team member, for his CNG Japan 2026 deck (https://github.com/yharby/cng-japan-2026); reused as team material. `composables/useDeckLocale.ts`
   (English-only helper kept for the components), `global-top.vue`, `style.css` (palette and layout).

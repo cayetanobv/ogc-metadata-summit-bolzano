@@ -16,7 +16,7 @@ layout: default
     <ul>
       <li>a specification, STAC 1.1 at its core</li>
       <li>a validator (<code>rashid</code>) and a grader</li>
-      <li>a CLI that builds catalogs from files and services</li>
+      <li>a CLI that builds catalogs from files and services, and ten <b>agent skills</b> that drive publication and consumption</li>
       <li>a registry: a catalog of independently hosted catalogs</li>
       <li>real catalogs, from a city to a planetary archive</li>
     </ul>
@@ -36,7 +36,7 @@ layout: default
 "The phrase AI-ready metadata is everywhere. Few people say what it means when you actually have to publish a dataset on a Monday morning. We tried to answer it by building instead of defining."
 
 [Click 1]
-"A spec, a validator, a CLI, a registry, and real catalogs. Portolan went public last Wednesday, the second of September, after a year of building in the open. So this is a success story with the scars still visible: what worked, and what surprised us."
+"A spec, a validator, a CLI, ten agent skills, a registry, and real catalogs. Portolan went public last Wednesday, the second of September, after a year of building in the open. So this is a success story with the scars still visible: what worked, and what surprised us."
 
 [Sources]
 - https://www.portolan-sdi.org/blog/introducing-portolan

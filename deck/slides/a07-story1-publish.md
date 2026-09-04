@@ -9,17 +9,15 @@ layout: default
 <div>
 
 ```bash
-# 1. Pull 69 layers from South Tyrol's WFS (207 available; ~12 min)
-portolan extract wfs $BZ_WFS ./bz --license CC0-1.0 --workers 4 \
-  --layers "p_bz-Health:*,p_bz-Hydrology:Watercourses,\
-            p_bz-TerritorialPlans:UrbanPlan-HazardZonePlan-*,…"
+# 1. Pull 69 of the 207 layers of South Tyrol's WFS (~12 min)
+portolan extract wfs $BZ_WFS ./bz --license CC0-1.0 \
+  --layers "p_bz-Health:*,p_bz-Hydrology:Watercourses,…"
 
 # 2. Validate against the spec
 portolan check
 # ✗ PTL-PRV-001  no provider carries the 'producer' role  (×69)
 
-# 3. Say who produced it, who hosts it, what it is not;
-#    group into 11 themes (a folder move → subcatalogs)
+# 3. Who produced it, who hosts it, what it is not; 11 themes
 $EDITOR .portolan/metadata.yaml
 
 # 4. Regenerate STAC + README + AGENTS.md, re-check
@@ -27,17 +25,17 @@ portolan add --force . && portolan readme
 portolan check --fix && rashid check . --schema --data
 # 0 error(s), 0 warning(s) across 81 files
 
-# 5. Push to a public bucket (Milan region). Nothing else runs.
+# 5. Push to a public bucket (Milan). Nothing else runs.
 portolan push gs://south-tyrol-geodata-portolan-mirror/
-rashid check . --live --live-base-url https://storage.googleapis.com/…/
-# 0 error(s): range requests, CORS, sizes all honoured by the host
+rashid check . --live --live-base-url https://…/
+# 0 error(s): range requests, CORS, sizes honoured
 ```
 
 </div>
 <div class="steps">
-  <div class="step" :class="{on: $clicks>=1}"><b>The service seeded what it could.</b> Titles in three languages, keywords, abstracts, styles from the WMS. 69 layers, 58 MB, converted to GeoParquet, spatially ordered, bbox column added; PMTiles and framed thumbnails alongside.</div>
-  <div class="step" :class="{on: $clicks>=2}"><b>The validator failed on the machine contract</b>, not on the prose: no producer, no license from the service. The producer's knowledge went into YAML at every level (root, 11 themes, 69 collections); from it came <code>README.md</code>, <code>collection.json</code>, <code>AGENTS.md</code>.</div>
-  <div class="step" :class="{on: $clicks>=3}"><b>Two independent validators, same answer: conforms to v0.2.0.</b> 128 requirements checked, including the hosting contract once pushed: range requests, CORS, byte sizes. The remaining notes are publisher judgment (no upstream STAC to link to). No server was started. The result is a folder in a bucket.</div>
+  <div class="step" :class="{on: $clicks>=1}"><b>The service seeded what it could.</b> Titles in three languages, keywords, abstracts, styles from the WMS. 69 layers to GeoParquet, spatially ordered, bbox column added; PMTiles and thumbnails alongside.</div>
+  <div class="step" :class="{on: $clicks>=2}"><b>The validator failed on the machine contract</b>, not on the prose: no producer, no license from the service. The producer's knowledge went into YAML at every level; from it came <code>README.md</code>, <code>collection.json</code>, <code>AGENTS.md</code>.</div>
+  <div class="step" :class="{on: $clicks>=3}"><b>Two validators, same answer: conforms to v0.2.0</b>, hosting contract included once pushed (range requests, CORS, sizes). The same run, hands off: an agent with the <code>portolan-bootstrap</code> skill does steps 1–5 and writes the documentation. No server was started. The result is a folder in a bucket.</div>
 </div>
 </div>
 
@@ -45,7 +43,8 @@ rashid check . --live --live-base-url https://storage.googleapis.com/…/
 
 <style>
 .attrib { margin-top:auto; font-size:0.68rem; color:var(--c-muted); }
-.steps { display:flex; flex-direction:column; gap:0.6rem; font-size:0.84rem; }
+.steps { display:flex; flex-direction:column; gap:0.55rem; font-size:0.8rem; }
+pre, .slidev-code { font-size:0.68rem !important; line-height:1.35 !important; }
 .step { border-left:3px solid var(--c-line); padding:0.3rem 0.8rem; color:var(--c-muted); transition: all 200ms; }
 .step.on { border-left-color: var(--c-portolan); color: var(--c-fg); }
 </style>

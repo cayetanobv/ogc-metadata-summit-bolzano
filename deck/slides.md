@@ -53,31 +53,35 @@ src: ./slides/a09-story2-trace.md
 ---
 
 ---
-src: ./slides/a10-lesson1-evaluability.md
+src: ./slides/a10-skills.md
 ---
 
 ---
-src: ./slides/a11-lesson2-two-audiences.md
+src: ./slides/a11-lesson1-evaluability.md
 ---
 
 ---
-src: ./slides/a12-lesson3-strict-machine-held.md
+src: ./slides/a12-lesson2-two-audiences.md
+---
+
+---
+src: ./slides/a13-lesson3-strict-machine-held.md
+---
+
+---
+src: ./slides/a15-close-trust.md
+---
+
+---
+src: ./slides/a16-postscript-name.md
+---
+
+---
+src: ./slides/a17-questions.md
 ---
 
 ---
 src: ./slides/16-honest-work.md
----
-
----
-src: ./slides/a14-close-trust.md
----
-
----
-src: ./slides/a15-postscript-name.md
----
-
----
-src: ./slides/a16-questions.md
 ---
 
 ---
