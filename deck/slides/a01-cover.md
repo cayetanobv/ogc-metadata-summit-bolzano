@@ -14,15 +14,15 @@ class: cover-slide
     </div>
     <div class="meta">
       <p class="who"><strong>Cayetano Benavent</strong></p>
-      <p class="role">CARTO and Portolan contributor</p>
+      <p class="role">CARTO and Portolan SDI contributor</p>
       <p class="where">Eurac Research, Bolzano / Bozen<br/>7–8 September 2026</p>
     </div>
   </div>
 
-  <div class="logos" aria-label="OGC, Portolan and CARTO logos">
+  <div class="logos" aria-label="OGC, Portolan SDI and CARTO logos">
     <img src="/ogc-logo.png" alt="OGC" class="ogc" />
     <div class="right">
-      <span class="portolan"><img src="/portolan-mark.svg" alt="" /><span>Portolan</span></span>
+      <span class="portolan"><img src="/portolan-mark.svg" alt="" /><span>Portolan SDI</span></span>
       <img src="/carto-logo-positive.svg" alt="CARTO" class="carto" />
     </div>
   </div>
