@@ -27,7 +27,7 @@ portolan check --fix && rashid check . --schema --data
 
 # 5. Push to a public bucket (Milan). Nothing else runs.
 portolan push gs://south-tyrol-geodata-portolan-mirror/
-rashid check . --live --live-base-url https://…/
+rashid check . --live --live-base-url $PUBLIC_URL
 # 0 error(s): range requests, CORS, sizes honoured
 ```
 
@@ -39,12 +39,25 @@ rashid check . --live --live-base-url https://…/
 </div>
 </div>
 
+<p class="browse">
+  <span class="label">EXAMPLE CATALOG</span>
+  <a class="source-link" href="https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json" target="_blank" rel="noopener noreferrer">open it in the Portolan browser ↗</a>
+  <span class="sep">·</span>
+  <a class="source-link" href="https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json" target="_blank" rel="noopener noreferrer">catalog.json on storage.googleapis.com ↗</a>
+  <span class="sep">·</span>
+  <a class="source-link" href="https://github.com/cayetanobv/south-tyrol-geodata-portolan-mirror" target="_blank" rel="noopener noreferrer">metadata and CI on GitHub ↗</a>
+</p>
+
 <p class="attrib">Data: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Ripartizione 28 · ASTAT · Ripartizione 23 Salute), CC0 1.0, via data.civis.bz.it and the provincial WFS. Community mirror extracted 5 September 2026 — not an official publication; the authoritative source is the Province's geoportal.</p>
 
 <style>
-.attrib { margin-top:auto; font-size:0.68rem; color:var(--c-muted); }
+.browse { margin-top:auto; font-size:0.72rem; display:flex; flex-wrap:nowrap; gap:0.7rem; align-items:baseline; margin-bottom:0; white-space:nowrap; }
+.browse a { text-decoration-style:solid; text-decoration-thickness:1px; }
+.browse .label { font-family:'JetBrains Mono', monospace; font-size:0.58rem; letter-spacing:0.08em; color:var(--c-portolan); }
+.browse .sep { color:var(--c-muted); }
+.attrib { margin:0.25rem 0 0; font-size:0.62rem; color:var(--c-muted); line-height:1.3; }
 .steps { display:flex; flex-direction:column; gap:0.55rem; font-size:0.8rem; }
-pre, .slidev-code { font-size:0.68rem !important; line-height:1.35 !important; }
+pre, .slidev-code { font-size:0.66rem !important; line-height:1.3 !important; }
 .step { border-left:3px solid var(--c-line); padding:0.3rem 0.8rem; color:var(--c-muted); transition: all 200ms; }
 .step.on { border-left-color: var(--c-portolan); color: var(--c-fg); }
 </style>
@@ -69,4 +82,5 @@ pre, .slidev-code { font-size:0.68rem !important; line-height:1.35 !important; }
   https://data.civis.bz.it/dataset/piani-delle-zone-di-pericolo-pericoli-idraulici · https://data.civis.bz.it/dataset/ospedali ·
   https://data.civis.bz.it/dataset/farmacie
 - https://github.com/portolan-sdi/portolan-cli · https://github.com/portolan-sdi/rashid
+- Example catalog, live: https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json · in the Portolan browser: https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
 -->

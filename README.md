@@ -7,4 +7,9 @@ success stories session.
 - `export/` — the exported deck: `ogc-metadata-summit-2026.pptx` (one page per slide, speaker notes included) and the PDF.
 
 Published deck: https://cayetanobv.github.io/ogc-metadata-summit-bolzano/ (GitHub Pages, built by the workflow in `.github/`).
-Related: https://portolan-sdi.org · https://github.com/cayetanobv/south-tyrol-geodata-portolan-mirror
+Example catalog shown in the talk (community mirror of South Tyrol open geodata, spec v0.2.0):
+- source and metadata: https://github.com/cayetanobv/south-tyrol-geodata-portolan-mirror
+- live catalog root: https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+- in the Portolan browser: https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+
+Related: https://portolan-sdi.org
