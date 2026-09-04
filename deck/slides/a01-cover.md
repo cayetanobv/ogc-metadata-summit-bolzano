@@ -11,11 +11,11 @@ class: cover-slide
     <div class="title">
       <h1>AI-ready metadata in practice</h1>
       <h2>Lessons from building Portolan</h2>
+      <p class="where">Eurac Research, Bolzano / Bozen · 7–8 September 2026</p>
     </div>
     <div class="meta">
       <p class="who"><strong>Cayetano Benavent</strong></p>
       <p class="role">CARTO and Portolan SDI contributor</p>
-      <p class="where">Eurac Research, Bolzano / Bozen<br/>7–8 September 2026</p>
     </div>
   </div>
 
@@ -39,7 +39,7 @@ class: cover-slide
 .cover .meta p { margin:0; }
 .cover .who { font-size:1.2rem; line-height:1.2; }
 .cover .role { font-size:0.95rem; color:var(--c-muted); }
-.cover .where { color:var(--c-muted); font-size:0.9rem; line-height:1.4; margin-top:0.5rem !important; }
+.cover .where { color:var(--c-muted); font-size:0.9rem; margin:1.4rem 0 0; }
 .cover .logos { flex:0 0 auto; display:flex; align-items:center; justify-content:space-between; border-top:1px solid var(--c-line); padding-top:1rem; }
 .cover .logos .right { display:flex; align-items:center; gap:2.2rem; }
 .cover .logos img { display:block; height:1.6rem; width:auto; }
