@@ -11,14 +11,11 @@
     "dev": "slidev",
     "build": "slidev build --out dist",
     "preview": "vite preview",
-    "export": "node scripts/export.mjs pdf",
-    "export:all": "pnpm export:pdf && pnpm export:pptx",
+    "export": "node scripts/export.mjs",
     "validate": "node scripts/validate-deck.mjs",
     "smoke": "node scripts/smoke.mjs",
     "test": "pnpm validate && pnpm build && pnpm smoke",
-    "export:pdf": "node scripts/export.mjs pdf",
-    "export:pptx": "node scripts/export.mjs pptx",
-    "export:pptx-clicks": "node scripts/export.mjs pptx clicks"
+    "export:pdf": "node scripts/export.mjs"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.124",

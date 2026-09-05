@@ -5,5 +5,4 @@ export const DECK = Object.freeze({
   clickBudget: 40,
   dist: 'dist',
   exportFile: '../export/ogc-metadata-summit-2026.pdf',
-  exportPptx: '../export/ogc-metadata-summit-2026.pptx',
 })

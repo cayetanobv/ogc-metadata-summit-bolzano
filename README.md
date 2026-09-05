@@ -4,7 +4,7 @@ Talk: **AI-ready metadata in practice: lessons from building Portolan** — Caye
 success stories session.
 
 - `deck/` — Slidev source of the presentation (see `deck/README.md` for build and export commands).
-- `export/` — the exported deck: `ogc-metadata-summit-2026.pptx` (one page per slide, speaker notes included) and the PDF.
+- `export/` — the exported deck as PDF, `ogc-metadata-summit-2026.pdf` (one page per slide, links preserved).
 
 Published deck: https://cayetanobv.github.io/ogc-metadata-summit-bolzano/ (GitHub Pages, built by the workflow in `.github/`).
 Example catalog shown in the talk (community mirror of South Tyrol open geodata, spec v0.2.0):
