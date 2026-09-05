@@ -15,7 +15,6 @@ layout: default
 
 <div class="state" :class="{dim:$clicks<1}">
   <div><b>Public since 2 September 2026.</b> Early adopters wanted; breaking changes still expected. First goal: ~100 reference catalogs, then a stable v1.0 CLI.</div>
-  <div class="mono">portolan-sdi.org · community call Fridays 10:00 CET · demo desk at the coffee breaks</div>
 </div>
 
 <style>
@@ -25,7 +24,6 @@ layout: default
 .q p { margin:0; line-height:1.35; }
 .muted { color:var(--c-muted); font-size:0.86rem; margin-top:1.2rem; max-width:60ch; }
 .state { margin-top:auto; padding-top:0.6rem; font-size:0.9rem; display:flex; flex-direction:column; gap:0.3rem; transition:opacity 200ms; }
-.state .mono { font-family:'JetBrains Mono', monospace; font-size:0.7rem; color:var(--c-portolan); }
 .dim { opacity:0.25; }
 </style>
 
