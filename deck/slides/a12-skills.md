@@ -19,8 +19,8 @@ layout: default
   <div class="panel" :class="{dim:$clicks<2}">
     <p class="label">STORY 2 · CONSUMING</p>
     <ul>
-      <li><code>reading-portolan</code> — navigate the STAC tree, query GeoParquet with DuckDB, read COGs, join across collections, report with sources</li>
-      <li><code>portolan-consume</code> — explore and visualise a catalog: PMTiles, MapLibre, deck.gl</li>
+      <li><code>reading-portolan</code> — the analyst's skill: navigate the STAC tree, query GeoParquet with DuckDB, join across collections, map it with PMTiles, MapLibre or deck.gl, report with sources</li>
+      <li><code>portolan-consume</code> — the on-ramp: detects what the user has installed (DuckDB, GeoPandas, rioxarray, rasterio) and shows how to read the GeoParquet and COG assets with those tools</li>
       <li><code>report-catalog-issue</code> — a wrong licence or a broken link becomes an issue on the registry, from the agent</li>
     </ul>
   </div>
@@ -46,9 +46,10 @@ layout: default
 "On the publishing side: bootstrap takes a WFS, an Esri service, a portal or a folder all the way to a documented, validated, published catalog; the CLI skill covers the day-to-day commands; thumbnails, migrate, and the skills for git-backed metadata, hosting and the registry pull request."
 
 [Click 2]
-"On the consuming side: reading-portolan is what the agent used in story two, navigating the STAC tree, querying GeoParquet with DuckDB, joining collections, reporting with sources; consume adds maps; and report-catalog-issue turns a wrong licence into an issue on the registry. The same files work in Claude Code, Gemini CLI and other agents. The spec says what a good catalog is; the skills encode how to build and use one."
+"On the consuming side: reading-portolan is what the agent used in story two, navigating the STAC tree, querying GeoParquet with DuckDB, joining collections, mapping the result, reporting with sources. Consume is the on-ramp for someone who just wants the data in their own tools: it detects whether DuckDB, GeoPandas or rasterio is installed and shows how to read the assets with that. And report-catalog-issue turns a wrong licence into an issue on the registry. The same files work in Claude Code, Gemini CLI and other agents. The spec says what a good catalog is; the skills encode how to build and use one."
 
 [Sources]
 - https://github.com/portolan-sdi/portolan-skills (ten skills, README checked 4 Sep 2026)
+- skills/reading-portolan/SKILL.md (navigate, DuckDB, joins, analysis, PMTiles/MapLibre/deck.gl/Potree) and skills/portolan-consume/SKILL.md (detects DuckDB / GeoPandas / rioxarray / rasterio, then how to read GeoParquet and COG), checked 5 Sep 2026
 - https://github.com/anthropics/agent-skills (Agent Skills open format, SKILL.md)
 -->
