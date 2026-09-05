@@ -58,7 +58,10 @@ const s = computed(() => (isPrintMode.value ? 99 : $clicks.value))
         <g transform="translate(548 345)"><circle cx="10" cy="7" r="7" /><text x="30" y="13">{{ tr('VISUALIZATION', '可視化') }}</text></g>
 
         <path d="M62 381 H738" class="schema-rule" />
-        <text x="400" y="407" text-anchor="middle" class="schema">schemas.portolan-sdi.org/portolan/v0.2.0/schema.json</text>
+        <a href="https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json" target="_blank" rel="noopener noreferrer"
+           class="svg-source-link" aria-label="Open the Portolan v0.2.0 JSON schema in a new tab" @click.stop>
+          <text x="400" y="407" text-anchor="middle" class="schema link-label">schemas.portolan-sdi.org/portolan/v0.2.0/schema.json ↗</text>
+        </a>
       </g>
     </svg>
   </div>
