@@ -3,7 +3,7 @@ clicks: 5
 layout: default
 ---
 
-# Why Portolan: the same goals as your SDI, a lighter way to deliver them
+# Why Portolan: the same goals as any SDI, a lighter way to deliver them
 
 <p class="kicker-line">SAME VISION · A FEDERATED SPATIAL DATA INFRASTRUCTURE, DISCOVERABLE, INTEROPERABLE, OPENLY ACCESSIBLE TO ALL</p>
 
