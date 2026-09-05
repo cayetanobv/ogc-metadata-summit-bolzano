@@ -18,6 +18,7 @@ layout: default
 <div class="mt-5 invite">
   <p class="label">DEMO DESK · COFFEE BREAKS TODAY AND TOMORROW</p>
   <p>Both stories live: publish a catalog from <em>your</em> WFS, then ask the agent <em>your</em> question. And <code>rashid check --live</code> against the hosted catalog, to see the hosting contract checked too.</p>
+  <p class="rec"><lucide-video class="ic" /><a class="source-link" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer">Recording of this run, 1 min 33 s ↗</a></p>
 </div>
 
 <style>
@@ -29,6 +30,8 @@ layout: default
 .invite { border:1px solid var(--c-portolan); border-radius:10px; padding:0.6rem 0.9rem; background:var(--c-portolan-soft); font-size:0.88rem; }
 .invite .label { font-family:'JetBrains Mono', monospace; font-size:0.6rem; letter-spacing:0.08em; color:var(--c-portolan); margin:0 0 0.2rem; }
 .invite p { margin:0; }
+.invite .rec { margin-top:0.35rem; display:flex; align-items:center; gap:0.4rem; font-size:0.8rem; }
+.invite .rec .ic { width:1rem; height:1rem; color:var(--c-portolan); }
 </style>
 
 <!--
@@ -52,4 +55,5 @@ layout: default
 
 [Sources]
 - https://github.com/portolan-sdi/portolan-skills/tree/main/skills/reading-portolan
+- Recording of the run: https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4 (public bucket in europe-west8, 19 MB, H.264, 93 s, no audio)
 -->

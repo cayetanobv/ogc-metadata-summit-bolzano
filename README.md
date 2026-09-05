@@ -12,4 +12,6 @@ Example catalog shown in the talk (community mirror of South Tyrol open geodata,
 - live catalog root: https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
 - in the Portolan browser: https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
 
+Recording of the agent run shown in story 2 (1 min 33 s, no audio): https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4
+
 Related: https://portolan-sdi.org
