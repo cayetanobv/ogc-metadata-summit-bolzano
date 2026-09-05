@@ -13,12 +13,16 @@ layout: default
   <div class="node" :class="{on:$clicks>=5}"><span class="n">5</span><b>Report</b><small>method, exact URLs and query, producer, license, limitations</small></div>
 </div>
 
-<div class="mt-6 bi"><span class="en">Every step consumed something the publisher wrote down. Nothing was guessed. That is the operational meaning of AI-ready metadata.</span></div>
-
-<div class="mt-5 invite">
-  <p class="label">LIVE AT THE DEMO DESK</p>
-  <p>This story, live: ask the agent <em>your</em> question on the South Tyrol catalog, and watch it read the metadata before it answers.</p>
-  <p class="rec"><lucide-video class="ic" /><a class="source-link" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer">Recording of this run, 1 min 16 s ↗</a></p>
+<div class="bottom">
+  <a class="clip" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer" aria-label="Open the recording of the agent run in a new tab">
+    <img src="/bz-agent-frame.jpg" alt="Terminal frame from the recording: the agent's answer, 4 hospitals and clinics and 31 pharmacies in H3/H4 hydraulic hazard zones, with the tables it produced" />
+    <span class="play"><lucide-play class="ic" /></span>
+    <span class="cap"><b>Watch the run</b> · 1 min 16 s · opens in a new tab</span>
+  </a>
+  <div class="side">
+    <p class="bi-text">Every step consumed something the publisher wrote down. Nothing was guessed. That is the operational meaning of AI-ready metadata.</p>
+    <p class="muted">Live at the demo desk: ask the agent <em>your</em> question on the South Tyrol catalog and watch it read the metadata before it answers.</p>
+  </div>
 </div>
 
 <style>
@@ -27,11 +31,16 @@ layout: default
 .node.on { opacity:1; border-color: var(--c-portolan); }
 .node .n { font-family:'JetBrains Mono', monospace; color:var(--c-portolan); font-size:0.7rem; }
 .node small { color:var(--c-muted); font-size:0.72rem; line-height:1.3; }
-.invite { border:1px solid var(--c-portolan); border-radius:10px; padding:0.6rem 0.9rem; background:var(--c-portolan-soft); font-size:0.88rem; }
-.invite .label { font-family:'JetBrains Mono', monospace; font-size:0.6rem; letter-spacing:0.08em; color:var(--c-portolan); margin:0 0 0.2rem; }
-.invite p { margin:0; }
-.invite .rec { margin-top:0.35rem; display:flex; align-items:center; gap:0.4rem; font-size:0.8rem; }
-.invite .rec .ic { width:1rem; height:1rem; color:var(--c-portolan); }
+.bottom { margin-top:1rem; flex:1 1 0; min-height:0; display:grid; grid-template-columns: 5fr 6fr; gap:1.4rem; align-items:center; }
+.clip { position:relative; display:block; border-radius:12px; overflow:hidden; border:1px solid var(--c-line); background:#1e2430; text-decoration:none; color:inherit; max-height:100%; }
+.clip img { display:block; width:100%; height:auto; opacity:0.92; transition:opacity 200ms; }
+.clip:hover img { opacity:1; }
+.clip .play { position:absolute; left:50%; top:44%; transform:translate(-50%,-50%); width:3.2rem; height:3.2rem; border-radius:50%; background:var(--c-portolan); display:grid; place-items:center; box-shadow:0 6px 24px rgba(0,0,0,0.35); }
+.clip .play .ic { width:1.5rem; height:1.5rem; color:#fff; margin-left:0.15rem; }
+.clip .cap { position:absolute; left:0; right:0; bottom:0; padding:0.4rem 0.7rem; font-size:0.7rem; color:#fff; background:linear-gradient(to top, rgba(14,23,38,0.92), rgba(14,23,38,0)); }
+.side { display:flex; flex-direction:column; gap:0.7rem; }
+.bi-text { margin:0; font-size:1.02rem; line-height:1.35; font-weight:600; border-left:3px solid var(--c-portolan); padding-left:0.9rem; }
+.muted { margin:0; font-size:0.84rem; color:var(--c-muted); padding-left:calc(0.9rem + 3px); }
 </style>
 
 <!--
@@ -55,5 +64,5 @@ layout: default
 
 [Sources]
 - https://github.com/portolan-sdi/portolan-skills/tree/main/skills/reading-portolan
-- Recording of the run: https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4 (public bucket in europe-west8, 18 MB, H.264, 76 s, no audio; replaced 5 Sep 2026)
+- Recording of the run (thumbnail: a frame from it, public/bz-agent-frame.jpg): https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4 (public bucket in europe-west8, 18 MB, H.264, 76 s, no audio; replaced 5 Sep 2026)
 -->
