@@ -33,7 +33,11 @@ src: ./slides/a04-why.md
 ---
 
 ---
-src: ./slides/a05-building-blocks.md
+src: ./slides/a05a-building-blocks-table.md
+---
+
+---
+src: ./slides/a05b-stac-profile.md
 ---
 
 ---
