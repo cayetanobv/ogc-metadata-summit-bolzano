@@ -3,7 +3,7 @@ clicks: 2
 layout: default
 ---
 
-# You already know the building blocks. Most carry an OGC stamp.
+# You already know the stack. Most of it carries an OGC stamp.
 
 <div class="grid grid-cols-5 gap-5 mt-2 body">
   <div class="col-span-2 panel">

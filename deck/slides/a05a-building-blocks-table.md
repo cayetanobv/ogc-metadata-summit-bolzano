@@ -3,10 +3,10 @@ clicks: 0
 layout: default
 ---
 
-# You already know the building blocks. Most carry an OGC stamp.
+# You already know the stack. Most of it carries an OGC stamp.
 
 <table class="blocks mt-4">
-  <thead><tr><th>Block</th><th>Role in a Portolan catalog</th><th class="st">Status</th></tr></thead>
+  <thead><tr><th>Piece</th><th>Role in a Portolan catalog</th><th class="st">Status</th></tr></thead>
   <tbody>
   <tr><td><b>STAC 1.1</b></td><td>catalog · collection · item · asset, plus the provider, table, file and web-map-links extensions</td><td class="st ogc">OGC Community Standard <small>Oct 2025</small></td></tr>
   <tr><td><b>GeoJSON</b></td><td>every STAC Item is a GeoJSON Feature</td><td class="st comm">IETF RFC 7946</td></tr>
