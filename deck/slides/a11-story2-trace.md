@@ -16,8 +16,8 @@ layout: default
 <div class="mt-6 bi"><span class="en">Every step consumed something the publisher wrote down. Nothing was guessed. That is the operational meaning of AI-ready metadata.</span></div>
 
 <div class="mt-5 invite">
-  <p class="label">DEMO DESK · COFFEE BREAKS TODAY AND TOMORROW</p>
-  <p>Both stories live: publish a catalog from <em>your</em> WFS, then ask the agent <em>your</em> question. And <code>rashid check --live</code> against the hosted catalog, to see the hosting contract checked too.</p>
+  <p class="label">LIVE AT THE DEMO DESK</p>
+  <p>This story, live: ask the agent <em>your</em> question on the South Tyrol catalog, and watch it read the metadata before it answers.</p>
   <p class="rec"><lucide-video class="ic" /><a class="source-link" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer">Recording of this run, 1 min 33 s ↗</a></p>
 </div>
 
@@ -51,7 +51,7 @@ layout: default
 "It planned a DuckDB query. The model plans and explains; DuckDB computes, reading only the row groups it needs thanks to the spatial ordering the spec requires."
 
 [Click 5]
-"It reported with method, URLs, producer, license and limitations. Every step consumed something the publisher wrote down. Nothing was guessed. I cannot run this in ten minutes, so both stories run live at the demo desk at the coffee breaks, today and tomorrow. Bring the URL of your WFS and a question."
+"It reported with method, URLs, producer, license and limitations. Every step consumed something the publisher wrote down. Nothing was guessed. I cannot run this in ten minutes, so it runs live at the demo desk: bring a question about South Tyrol and watch the agent read the metadata before it answers. The recording is linked here as well."
 
 [Sources]
 - https://github.com/portolan-sdi/portolan-skills/tree/main/skills/reading-portolan
