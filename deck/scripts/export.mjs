@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 // Export the deck as PDF: ../export/ogc-metadata-summit-2026.pdf, one page per slide, clicks collapsed.
-// PDF is the only export: Slidev's PPTX export rasterises each slide, so links stop working there.
 import { spawnSync } from 'node:child_process'
 import { mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'

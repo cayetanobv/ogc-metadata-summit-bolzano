@@ -12,7 +12,7 @@ Eurac Research, Bolzano, 7 September 2026, success stories session, 15 minutes.
   (English-only helper kept for the components), `global-top.vue`, `style.css` (palette and layout).
 - `public/`: logos (OGC official blue mark, Portolan mark, CARTO), STAC artwork, the closing QR (`qr-deck.svg`, pointing at
   the published deck, slide 18).
-- `scripts/`: `validate-deck.mjs` (order, click budget, forbidden on-screen claims), `export.mjs` (PDF via `slidev export`; PDF is the only export, PPTX was dropped because it rasterises slides and loses links),
+- `scripts/`: `validate-deck.mjs` (order, click budget, forbidden on-screen claims), `export.mjs` (PDF via `slidev export`),
   `render-slides.mjs` (renders every slide to PNG for visual QA), `smoke.mjs` (render check in light and dark).
 - `deck.config.mjs`: Pages base (`/ogc-metadata-summit-bolzano/`), main-slide count (18), click budget, export paths (`../export/`).
 

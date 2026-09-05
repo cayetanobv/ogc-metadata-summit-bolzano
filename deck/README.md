@@ -13,8 +13,7 @@ pnpm install
 pnpm dev            # http://localhost:3030/  ·  presenter view: http://localhost:3030/#/presenter/
 pnpm validate       # slide order, click budget, and a short list of claims that must not appear on screen
 pnpm build          # static site in dist/ (served under /ogc-metadata-summit-bolzano/)
-pnpm export:pdf     # ../export/ogc-metadata-summit-2026.pdf — one page per slide, links preserved (the only export;
-                    # Slidev's PPTX export rasterises slides, so links would not work there)
+pnpm export:pdf     # ../export/ogc-metadata-summit-2026.pdf — one page per slide, links preserved
 ```
 
 Slides live in `slides/` (`a01`–`a17` are the talk; `x01`–`x03` are the appendix, shown only in Q&A), in the order given
