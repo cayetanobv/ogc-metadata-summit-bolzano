@@ -18,7 +18,7 @@ layout: default
 <div class="mt-5 invite">
   <p class="label">LIVE AT THE DEMO DESK</p>
   <p>This story, live: ask the agent <em>your</em> question on the South Tyrol catalog, and watch it read the metadata before it answers.</p>
-  <p class="rec"><lucide-video class="ic" /><a class="source-link" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer">Recording of this run, 1 min 33 s ↗</a></p>
+  <p class="rec"><lucide-video class="ic" /><a class="source-link" href="https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4" target="_blank" rel="noopener noreferrer">Recording of this run, 1 min 16 s ↗</a></p>
 </div>
 
 <style>
@@ -55,5 +55,5 @@ layout: default
 
 [Sources]
 - https://github.com/portolan-sdi/portolan-skills/tree/main/skills/reading-portolan
-- Recording of the run: https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4 (public bucket in europe-west8, 19 MB, H.264, 93 s, no audio)
+- Recording of the run: https://storage.googleapis.com/ogc-metadata-summit-bolzano-talk-media/ogc-metadata-2026-bolzano-demo-south-tyrol-agent.mp4 (public bucket in europe-west8, 18 MB, H.264, 76 s, no audio; replaced 5 Sep 2026)
 -->
