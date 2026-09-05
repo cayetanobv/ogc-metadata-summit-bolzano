@@ -62,7 +62,7 @@ const links = computed(() => [
 .external-mark { fill: none; stroke: var(--c-portolan); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .deck-card { fill: var(--c-fg); }
 .deck-label { fill: var(--c-bg); font-size: 16px; font-weight: 900; letter-spacing: 0.08em; }
-.qr-frame { fill: var(--c-bg); }
+.qr-frame { fill: #ffffff; } /* QR modules are black in the SVG; the frame must stay white in dark mode too */
 .deck-url { fill: var(--c-bg); font-size: 9px; font-weight: 800; font-family: ui-monospace, 'JetBrains Mono', monospace; }
 .deck-note { fill: var(--c-bg); opacity: 0.68; font-size: 9px; font-weight: 900; letter-spacing: 0.08em; }
 </style>
