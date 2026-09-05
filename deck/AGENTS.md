@@ -20,6 +20,8 @@ Eurac Research, Bolzano, 7 September 2026, success stories session, 15 minutes.
 - Simple, literal titles; one idea per slide; every slide keeps `[Say]` notes with time budgets and a `[Sources]` block.
 - Portolan is an open specification: describe it as a STAC publishing profile, never as a product. Affiliation appears on the
   cover and the bio slide only.
+- The deck is fixed to dark (`colorSchema: dark` in `slides.md`); the exports come out dark too. Everything that is not a
+  CSS variable (logos, QR frame, video thumbnail) must be checked in dark.
 - Say "no server in the request path" rather than "serverless" on screen. Portolan is AI-ready, not AI-first (the five goals
   on the Why and lifecycle slides read AI-ready, easy to implement, scalable, low cost, sovereign).
 - Talk order: what Portolan is → why (five goals) → building blocks (table, then STAC/profile) → lifecycle → what it adds → story 1 → where the metadata
