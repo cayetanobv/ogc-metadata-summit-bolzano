@@ -18,7 +18,7 @@ layout: default
   </tbody>
 </table>
 
-<div class="bi"><span class="en">Nothing here is new. Portolan uses the static side of STAC only: files, no API.</span></div>
+<p class="nothing-new">Nothing here is new.</p>
 
 <style>
 .blocks { width:100%; border-collapse:collapse; font-size:0.9rem; flex:1 1 auto; }
@@ -29,7 +29,14 @@ layout: default
 .blocks td small, .blocks .st small { display:block; font-size:0.7em; color:var(--c-muted); }
 .st { white-space:nowrap; text-align:right; font-family:'JetBrains Mono', monospace; font-size:0.72rem; }
 .ogc { color:var(--c-ok); } .comm { color:var(--c-muted); }
-.bi { margin-top:auto; }
+/* The one line to look up at: a different register from the table above it —
+   big, blue, and fenced off by its own rule. */
+.nothing-new {
+  margin:auto 0 0; padding-top:0.85rem;
+  border-top:2px solid var(--c-portolan);
+  font-size:1.5rem; font-weight:700; line-height:1.15;
+  letter-spacing:-0.01em; color:var(--c-portolan);
+}
 </style>
 
 <!--
