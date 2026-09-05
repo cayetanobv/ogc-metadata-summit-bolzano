@@ -19,7 +19,7 @@ layout: default
       <tr><td><b>HTTP range requests</b> · object storage · CORS</td><td class="st comm">IETF · W3C</td></tr>
       </tbody>
     </table>
-    <p class="muted">Nothing here is ours.</p>
+    <p class="muted">Nothing here is new.</p>
   </div>
   <div class="col-span-3 viz">
     <VizTheGap />
@@ -45,7 +45,7 @@ layout: default
 
 <!--
 [Say] (1:15)
-"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October. Every STAC Item is a GeoJSON Feature, an IETF standard. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet has its own OGC Standards Working Group; approval of 1.0 is the remaining formality. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format, and underneath it all are HTTP range requests on object storage. Nothing here is ours."
+"Everything a Portolan catalog is made of, you already know, and most of it carries an OGC stamp. STAC, catalog to asset, has been an OGC Community Standard since last October. Every STAC Item is a GeoJSON Feature, an IETF standard. Cloud Optimized GeoTIFF is an OGC Standard since 2023. GeoParquet has its own OGC Standards Working Group; approval of 1.0 is the remaining formality. Zarr, which we plan but have not shipped, is an OGC Community Standard. PMTiles for display is a community format, and underneath it all are HTTP range requests on object storage. Nothing here is new."
 
 [Click 1]
 "STAC does its normal job: it describes and links the same objects, catalog, collection, item, asset. Portolan uses the static side of STAC only: files, no API."
