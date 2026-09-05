@@ -5,7 +5,6 @@ titleTemplate: '%s'
 author: Cayetano Benavent
 info: OGC Metadata Summit 2026, Eurac Research, Bolzano, 7–8 September 2026
 routerMode: hash
-colorSchema: dark
 htmlAttrs:
   lang: en
 seoMeta:
