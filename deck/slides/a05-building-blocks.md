@@ -16,7 +16,7 @@ layout: default
       <tr><td><b>GeoParquet</b> · vector</td><td class="st ogc">OGC SWG <small>approval pending</small></td></tr>
       <tr><td><b>PMTiles</b> · map display</td><td class="st comm">community format</td></tr>
       <tr><td><b>Zarr</b> · <b>COPC</b> <small>planned</small></td><td class="st ogc">Zarr: OGC Community Standard <small>2022</small></td></tr>
-      <tr><td><b>HTTP range requests</b> · object storage · CORS</td><td class="st comm">IETF · W3C</td></tr>
+      <tr><td><b>HTTP range requests</b> · <b>CORS</b></td><td class="st comm">IETF · WHATWG</td></tr>
       </tbody>
     </table>
     <p class="muted">Nothing here is new.</p>

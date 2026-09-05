@@ -14,7 +14,7 @@ layout: default
   <tr><td><b>GeoParquet</b></td><td>vector: Parquet with Simple Features geometry</td><td class="st ogc">OGC Standards Working Group <small>approval pending</small></td></tr>
   <tr><td><b>PMTiles</b></td><td>tiles in one file, for map display</td><td class="st comm">community format <small>outside OGC</small></td></tr>
   <tr><td><b>Zarr</b> · <b>COPC</b></td><td>multidimensional arrays · point clouds <small>planned, not shipped</small></td><td class="st ogc">Zarr: OGC Community Standard <small>2022</small></td></tr>
-  <tr><td><b>HTTP range requests</b> · <b>object storage</b> · <b>CORS</b></td><td>the only server involved is the storage itself</td><td class="st comm">IETF · W3C</td></tr>
+  <tr><td><b>HTTP range requests</b> · <b>CORS</b></td><td>read straight from object storage; the only server involved is the storage itself</td><td class="st comm">IETF · WHATWG</td></tr>
   </tbody>
 </table>
 
@@ -50,4 +50,7 @@ layout: default
 - https://github.com/opengeospatial/geoparquet/blob/main/README.md ("official Standards Working Group … pending OGC approval", checked 3 Sep 2026)
 - https://www.ogc.org/announcement/ogc-forms-new-geozarr-standards-working-group-to-establish-a-zarr-encoding-for-geospatial-data/ (Zarr V2 endorsed as OGC Community Standard, June 2022)
 - https://docs.protomaps.com/pmtiles/ (PMTiles; not an OGC document)
+- https://www.rfc-editor.org/rfc/rfc9110#name-range-requests (HTTP range requests, IETF; RFC 9110 obsoletes RFC 7233)
+- https://fetch.spec.whatwg.org/#http-cors-protocol (CORS is WHATWG, not W3C: the W3C CORS Recommendation was republished as Obsolete in 2017 and https://www.w3.org/TR/cors/ now 307-redirects here; checked 5 Sep 2026)
+- https://github.com/portolan-sdi/portolan-spec/blob/main/specs/portolan/core.md#data-storage (why these two are in the table: both are normative Portolan MUSTs on the host — PORTO-CORE-043 range requests, PORTO-CORE-045 CORS, both validator-enforced; PORTO-CORE-044 HTTP/1.1+. Object storage and S3-compatibility are implementation substrate, deliberately unspecified and standardised by nobody, so they carry no status here.)
 -->
