@@ -16,6 +16,10 @@ pnpm build          # static site in dist/ (served under /ogc-metadata-summit-bo
 pnpm export:pdf     # ../export/ogc-metadata-summit-2026.pdf — one page per slide, links preserved
 ```
 
+`pnpm build` drops presenter mode and the speaker notes, so the published deck carries neither. `pnpm dev` and
+`pnpm export:pdf` keep both. `presenter: dev` in the headmatter of `slides.md` holds the first half, and
+`setup/preparser.ts` holds the second.
+
 Slides live in `slides/` (`a01`–`a17` are the talk; `x01`–`x03` are the appendix, shown only in Q&A), in the order given
 by `slides.md`. Each slide file carries the speaker script (`[Say]`, `[Click n]`) and a `[Sources]` list.
 

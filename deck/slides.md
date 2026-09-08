@@ -5,6 +5,10 @@ titleTemplate: '%s'
 author: Cayetano Benavent
 info: OGC Metadata Summit 2026, Eurac Research, Bolzano, 7–8 September 2026
 routerMode: hash
+# Presenter mode is for the speaker's own screen, so it stays in `slidev`
+# (dev). The published build drops it, together with the speaker notes it
+# shows (see setup/preparser.ts).
+presenter: dev
 htmlAttrs:
   lang: en
 seoMeta:
