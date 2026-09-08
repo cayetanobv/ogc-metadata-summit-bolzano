@@ -18,6 +18,8 @@ Eurac Research, Bolzano, 7 September 2026, success stories session, 15 minutes.
 
 ## Editorial rules
 - Simple, literal titles; one idea per slide; every slide keeps `[Say]` notes with time budgets and a `[Sources]` block.
+- `pnpm build` drops presenter mode and the notes, so the published deck carries neither (`presenter: dev` in
+  `slides.md`, `setup/preparser.ts`). `pnpm dev` and `pnpm export:pdf` keep both, and the source markdown always keeps them.
 - Portolan is an open specification: describe it as a STAC publishing profile, never as a product. Affiliation appears on the
   cover and the bio slide only.
 - Dark is the starting appearance (`setup/main.ts` sets the preference on first visit); the toolbar toggle still switches to
